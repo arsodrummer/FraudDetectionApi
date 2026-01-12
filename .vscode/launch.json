@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Fraud Detection API (Console-only)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/Debug/net10.0/FraudDetectionApi.dll",
+      "console": "externalTerminal",
+      "launchSettingsFilePath": "${workspaceFolder}/Properties/launchSettings.json",
+      "launchSettingsProfile": "FraudDetectionApi",
+      "logging": { "moduleLoad": false  }
+    }
+  ]
+}

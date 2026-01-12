@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11123.170 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FraudDetectionApi", "FraudDetectionApi.csproj", "{D12F3B9D-8026-E333-51B1-1B18E7BE1483}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D12F3B9D-8026-E333-51B1-1B18E7BE1483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12F3B9D-8026-E333-51B1-1B18E7BE1483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12F3B9D-8026-E333-51B1-1B18E7BE1483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12F3B9D-8026-E333-51B1-1B18E7BE1483}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AC3AEB1-41C8-4ED5-A609-6D6686720A92}
+	EndGlobalSection
+EndGlobal
