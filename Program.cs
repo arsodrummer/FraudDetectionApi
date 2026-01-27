@@ -8,8 +8,7 @@ builder.Services.AddSingleton<FeatureEngineeringService>();
 var app = builder.Build();
 
 var trainer = app.Services.GetRequiredService<FraudDetectionModelTrainer>();
-//trainer.Train("Data/transactions.csv");
-trainer.TrainSimpleVersion("Data/transactions.csv");
+trainer.Train("Data/transactions.csv");
 
 app.MapControllers();
 app.Run();

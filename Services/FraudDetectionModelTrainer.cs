@@ -8,7 +8,7 @@ namespace FraudDetectionApi.Services
         private readonly string _modelPath = "fraudDetectionModel.zip";
         private readonly MLContext _mlContext = new();
 
-        public void TrainSimpleVersion(string dataPath)
+        public void Train(string dataPath)
         {
             var raw = _mlContext.Data.LoadFromTextFile<TransactionRaw>(
                 dataPath, hasHeader: true, separatorChar: ',');
