@@ -1,0 +1,39 @@
+{
+  "info": {
+    "_postman_id": "b999636d-a284-4657-9c75-0137bc790b86",
+    "name": "Fraud Detection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "29835723"
+  },
+  "item": [
+    {
+      "name": "http://localhost:50000/Fraud/analyze",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"AccountNumber\": \"UA123\",\r\n  \"LastName\": \"Roshen\",\r\n  \"BaseCurrency\": \"UAH\",\r\n  \"Currency\": \"EUR\",\r\n  \"Amount\": 1000\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:50000/Fraud/analyze",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "50000",
+          "path": [
+            "Fraud",
+            "analyze"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
