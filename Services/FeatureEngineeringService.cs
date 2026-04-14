@@ -18,7 +18,7 @@ namespace FraudDetectionApi.Services
 
             float avgAmount = hasHistory
                 ? history.AverageAmount
-                : raw.Amount; // first transaction = baseline
+                : raw.Amount;
 
             var data = new TransactionData
             {
