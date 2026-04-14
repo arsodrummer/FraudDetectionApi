@@ -1,5 +1,7 @@
 # Fraud Detection API
 
+<img width="794" height="547" alt="image" src="https://github.com/user-attachments/assets/3e311474-a921-437f-ab14-d137be81b3e3" />
+
 A prototype fraud detection API built with .NET and ML.NET, designed to identify suspicious transactions using machine learning.
 
 This project demonstrates how a backend developer can integrate ML models into a real-world API and build a foundation for scalable fraud detection systems.
