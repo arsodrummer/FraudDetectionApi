@@ -104,8 +104,7 @@ This project explores how to:
 
 ## Related Project
 Fake transaction generator:
-[FakeTransactionsGenerator]
-(https://github.com/arsodrummer/FakeTransactionsGenerator)
+[FakeTransactionsGenerator](https://github.com/arsodrummer/FakeTransactionsGenerator)
 
 ## Support
 If you find this project useful:
