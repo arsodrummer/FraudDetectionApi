@@ -9,15 +9,16 @@ This project demonstrates how a backend developer can integrate ML models into a
 ## Overview
 
 Fraud detection is a classic problem in fintech systems where real-time decisions are critical.
+
 This project explores how to:
 
-Train a machine learning model using transaction data
+- Train a machine learning model using transaction data
 
-Integrate the model into a .NET Web API
+- Integrate the model into a .NET Web API
 
-Predict whether a transaction is fraudulent
+- Predict whether a transaction is fraudulent
 
-Build a clean, extensible backend architecture for ML-powered features
+- Build a clean, extensible backend architecture for ML-powered features
 
 ## Tech Stack
 
@@ -100,6 +101,11 @@ Build a clean, extensible backend architecture for ML-powered features
 - Using ML.NET for classification tasks
 - Structuring ML-powered APIs
 - Challenges of fraud detection systems
+
+## Related Project
+Fake transaction generator:
+[FakeTransactionsGenerator]
+(https://github.com/arsodrummer/FakeTransactionsGenerator)
 
 ## Support
 If you find this project useful:
